@@ -14,7 +14,7 @@
 		42BF62B82B83CDF4001FF125 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62B72B83CDF4001FF125 /* Service.swift */; };
 		42BF62BA2B83CEA2001FF125 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62B92B83CEA2001FF125 /* Weather.swift */; };
 		42BF62BC2B83E276001FF125 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62BB2B83E275001FF125 /* WeatherViewModel.swift */; };
-		42BF62BF2B8401CD001FF125 /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62BE2B8401CD001FF125 /* ApiEndPoint.swift */; };
+		42BF62BF2B8401CD001FF125 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62BE2B8401CD001FF125 /* ApiEndpoint.swift */; };
 		42BF62C22B8402AC001FF125 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62C12B8402AC001FF125 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		42BF62B92B83CEA2001FF125 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		42BF62BB2B83E275001FF125 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		42BF62BD2B83F3E3001FF125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		42BF62BE2B8401CD001FF125 /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		42BF62BE2B8401CD001FF125 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		42BF62C12B8402AC001FF125 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 				42BF62B72B83CDF4001FF125 /* Service.swift */,
 				42BF62B92B83CEA2001FF125 /* Weather.swift */,
 				42BF62BB2B83E275001FF125 /* WeatherViewModel.swift */,
-				42BF62BE2B8401CD001FF125 /* ApiEndPoint.swift */,
+				42BF62BE2B8401CD001FF125 /* ApiEndpoint.swift */,
 			);
 			path = WeatherSwiftUi;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				42BF62AA2B83CCDE001FF125 /* WeatherSwiftUiApp.swift in Sources */,
 				42BF62C22B8402AC001FF125 /* Constants.swift in Sources */,
 				42BF62B82B83CDF4001FF125 /* Service.swift in Sources */,
-				42BF62BF2B8401CD001FF125 /* ApiEndPoint.swift in Sources */,
+				42BF62BF2B8401CD001FF125 /* ApiEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

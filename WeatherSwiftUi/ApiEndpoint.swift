@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ApiEndPoint {
+enum ApiEndpoint {
     
     static let base_url = "https://api.openweathermap.org"
     
@@ -24,7 +24,7 @@ enum ApiEndPoint {
         }
     }
     
-    static func endPointUrl(for endpoint: ApiEndPoint) -> URL {
+    static func endPointUrl(for endpoint: ApiEndpoint) -> URL {
         return URL(string: base_url + endpoint.path)!
     }
 }
