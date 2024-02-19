@@ -7,23 +7,13 @@
 
 import Foundation
 
-struct Weather: Codable {
-    let weather: [WeatherInfo]
-    let main: Main
+struct WeatherResponse: Decodable {
+    let main: Weather
 }
 
-struct WeatherInfo: Codable {
-    let id: Int
-    let main: String
-    let description: String
-    let icon: String
+struct Weather: Decodable {
+    let temp: Double?
+    let humidity: Int?
 }
 
-struct Main: Codable {
-    let temp: Double
-    let feels_like: Double
-    let temp_min: Double
-    let temp_max: Double
-    let pressure: Int
-    let humidity: Int
-}
+
