@@ -11,6 +11,8 @@
 		42BF62AC2B83CCDE001FF125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62AB2B83CCDE001FF125 /* ContentView.swift */; };
 		42BF62AE2B83CCE0001FF125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BF62AD2B83CCE0001FF125 /* Assets.xcassets */; };
 		42BF62B12B83CCE0001FF125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BF62B02B83CCE0001FF125 /* Preview Assets.xcassets */; };
+		42BF62B82B83CDF4001FF125 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62B72B83CDF4001FF125 /* Service.swift */; };
+		42BF62BA2B83CEA2001FF125 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF62B92B83CEA2001FF125 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		42BF62AB2B83CCDE001FF125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42BF62AD2B83CCE0001FF125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BF62B02B83CCE0001FF125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42BF62B72B83CDF4001FF125 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		42BF62B92B83CEA2001FF125 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				42BF62AB2B83CCDE001FF125 /* ContentView.swift */,
 				42BF62AD2B83CCE0001FF125 /* Assets.xcassets */,
 				42BF62AF2B83CCE0001FF125 /* Preview Content */,
+				42BF62B72B83CDF4001FF125 /* Service.swift */,
+				42BF62B92B83CEA2001FF125 /* Weather.swift */,
 			);
 			path = WeatherSwiftUi;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BF62BA2B83CEA2001FF125 /* Weather.swift in Sources */,
 				42BF62AC2B83CCDE001FF125 /* ContentView.swift in Sources */,
 				42BF62AA2B83CCDE001FF125 /* WeatherSwiftUiApp.swift in Sources */,
+				42BF62B82B83CDF4001FF125 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
